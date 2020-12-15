@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+# Created by: Adam Diwani
+# Created on: December 15, 2020
+# This program tells users the circumference of a circle with the input of users
+
+
+import constants
+
+
+def main():
+    #This functions calculates circumference
+    
+    #input
+    radius = int(input("Enter radius of circle(mm): "))
+    
+    #process
+    circumference = constants.TAU*radius
+    
+    #output
+    print("Circumference is {}mm2".format(circumference))
+    
+if __name__ == "__main__":
+    main()
